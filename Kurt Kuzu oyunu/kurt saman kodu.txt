@@ -1,0 +1,489 @@
+kurt.style.left="790px";
+      kurt.style.top="400px";
+      kurtYer++;
+      sandal.style.left="750px";
+      sandal.style.top="410px";
+      sandalYer++;
+      var btnKurt=document.getElementById("kurt");
+      btnKurt.onclick=function(){
+        kurt.style.left="970px";
+        kurt.style.top="485px";
+        kurtYer++;   
+    }
+    var btnSandal=document.getElementById("sandal");
+    btnSandal.onclick=function(){
+      sandal.style.left="515px";
+      sandal.style.top="410px";
+      sandalYer++;
+    }
+    var btnKuzu=document.getElementById("kuzu");
+    btnKuzu.onclick=function(){
+    if (sandalYer == 3 && kuzuYer == 1) {
+      kuzu.style.left="560px";
+      kuzu.style.top="380px";  
+      kuzuYer++; 
+      }
+      var btnSandal=document.getElementById("sandal");
+      btnSandal.onclick=function(){
+        if (kuzuYer == 2) {
+          sandal.style.left="750px";
+          sandal.style.top="410px";
+          sandalYer++;
+          kuzu.style.left="780px";
+          kuzu.style.top="380px";
+          kuzuYer++;
+        }
+      }
+      var btnKuzu=document.getElementById("kuzu");
+        btnKuzu.onclick=function(){
+          if (sandalYer == 4 && kuzuYer == 3) {
+            kuzu.style.left="970px";
+            kuzu.style.top="390px";
+            kuzuYer++;
+        }
+      } 
+      var btnKurt=document.getElementById("kurt");
+      btnKurt.onclick=function(){
+      if (kurtYer == 4 && sandalYer == 4) {
+        kurt.style.left="790px";
+        kurt.style.top="400px";
+        kurtYer++;
+      }    
+      var btnSandal=document.getElementById("sandal");
+      btnSandal.onclick=function(){
+        if (kurtYer == 5) {
+          sandal.style.left="515px";
+          sandal.style.top="410px";
+          sandalYer++;
+          kurt.style.left="570px";
+          kurt.style.top="400px";  
+          kurtYer++; 
+        }
+      }
+      var btnKurt=document.getElementById("kurt");
+      btnKurt.onclick=function(){
+      if (kurtYer == 6 && sandalYer == 5) {
+        kurt.style.left="430px";
+        kurt.style.top="485px";
+        kurtYer++;
+        }    
+      }
+      var btnSaman=document.getElementById("saman");
+      btnSaman.onclick=function(){
+      if (samanYer == 1 && sandalYer == 5) {
+        saman.style.left="560px";
+        saman.style.top="410px";
+        samanYer++;
+        }
+        var btnSandal=document.getElementById("sandal");
+        btnSandal.onclick=function(){
+        if (samanYer == 2) {
+          sandal.style.left="750px";
+          sandal.style.top="410px";
+          sandalYer++;
+          saman.style.left="795px";
+          saman.style.top="420px";
+          samanYer++;
+          }       
+        }
+        var btnSaman=document.getElementById("saman");
+        btnSaman.onclick=function(){
+        if (samanYer == 3 && sandalYer == 6) {
+          saman.style.left="970px";
+          saman.style.top="565px";
+          samanYer++;
+          }
+          var btnSandal=document.getElementById("sandal");
+          btnSandal.onclick=function(){
+            sandal.style.left="515px";
+            sandal.style.top="410px";
+            sandalYer++;
+          }
+          var btnKurt=document.getElementById("kurt");
+          btnKurt.onclick=function(){
+          if (kurtYer == 7 && sandalYer == 7) {
+            kurt.style.left="570px";
+            kurt.style.top="400px";
+            kurtYer++;
+            }  
+            var btnSandal=document.getElementById("sandal");
+            btnSandal.onclick=function(){  
+            if (kurtYer == 8 ) {
+                  kurt.style.left="790px";
+                  kurt.style.top="400px";
+                  kurtYer++;
+                  sandal.style.left="750px";
+                  sandal.style.top="410px";
+                  sandalYer++;
+                  var btnKurt=document.getElementById("kurt");
+                  btnKurt.onclick=function(){
+                    kurt.style.left="970px";
+                    kurt.style.top="485px";
+                    kurtYer++;   
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+    var btnSaman=document.getElementById("saman");
+    btnSaman.onclick=function(){
+    if (samanYer == 1 && sandalYer == 3) {
+      saman.style.left="560px";
+      saman.style.top="410px";
+      samanYer++;
+      }
+      var btnSandal=document.getElementById("sandal");
+      btnSandal.onclick=function(){
+        if (samanYer == 2) {
+          sandal.style.left="750px";
+          sandal.style.top="410px";
+          sandalYer++;
+          saman.style.left="795px";
+          saman.style.top="420px";
+          samanYer++;
+        }
+      }
+      var btnSaman=document.getElementById("saman");
+      btnSaman.onclick=function(){
+        if (sandalYer == 4 && samanYer == 3) {
+          saman.style.left="970px";
+          saman.style.top="565px";
+          samanYer++;
+        }
+      } 
+      var btnKurt=document.getElementById("kurt");
+      btnKurt.onclick=function(){
+      if (kurtYer == 4 && sandalYer == 4) {
+        kurt.style.left="790px";
+        kurt.style.top="400px";
+        kurtYer++;
+      }   
+      var btnSandal=document.getElementById("sandal");
+      btnSandal.onclick=function(){
+        if (kurtYer == 5) {
+          sandal.style.left="515px";
+          sandal.style.top="410px";
+          sandalYer++;
+          kurt.style.left="570px";
+          kurt.style.top="400px";  
+          kurtYer++;
+        }
+      } 
+      var btnKurt=document.getElementById("kurt");
+      btnKurt.onclick=function(){
+      if (kurtYer == 6 && sandalYer == 5) {
+        kurt.style.left="430px";
+        kurt.style.top="485px";
+        kurtYer++;
+        }    
+      }
+      var btnKuzu=document.getElementById("kuzu");
+      btnKuzu.onclick=function(){
+      if (kuzuYer == 1 && sandalYer == 5) {
+        kuzu.style.left="560px";
+        kuzu.style.top="380px";  
+        kuzuYer++; 
+        }
+        var btnSandal=document.getElementById("sandal");
+        btnSandal.onclick=function(){
+        if (kuzuYer == 2) {
+          sandal.style.left="750px";
+          sandal.style.top="410px";
+          sandalYer++;
+          kuzu.style.left="780px";
+          kuzu.style.top="380px";
+          kuzuYer++;
+          }       
+        }  
+        var btnKuzu=document.getElementById("kuzu");
+        btnKuzu.onclick=function(){
+        if (kuzuYer == 3 && sandalYer == 6) {
+          kuzu.style.left="970px";
+          kuzu.style.top="390px";
+          kuzuYer++;
+          }
+          var btnSandal=document.getElementById("sandal");
+          btnSandal.onclick=function(){
+            sandal.style.left="515px";
+            sandal.style.top="410px";
+            sandalYer++;
+          }
+          var btnKurt=document.getElementById("kurt");
+          btnKurt.onclick=function(){
+          if (kurtYer == 7 && sandalYer == 7) {
+            kurt.style.left="570px";
+            kurt.style.top="400px";
+            kurtYer++;
+            }  
+            var btnSandal=document.getElementById("sandal");
+            btnSandal.onclick=function(){  
+            if (kurtYer == 8 ) {
+                  kurt.style.left="790px";
+                  kurt.style.top="400px";
+                  kurtYer++;
+                  sandal.style.left="750px";
+                  sandal.style.top="410px";
+                  sandalYer++;
+                  var btnKurt=document.getElementById("kurt");
+                  btnKurt.onclick=function(){
+                    kurt.style.left="970px";
+                    kurt.style.top="485px";
+                    kurtYer++;   
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+saman.style.left="795px";
+      saman.style.top="420px";
+      samanYer++;
+      sandal.style.left="750px";
+      sandal.style.top="410px";
+      sandalYer++;
+      var btnSaman=document.getElementById("saman");
+      btnSaman.onclick=function(){
+        saman.style.left="960px";
+        saman.style.top="565px";
+        samanYer++;
+    }
+    var btnSandal=document.getElementById("sandal");
+    btnSandal.onclick=function(){
+      sandal.style.left="515px";
+      sandal.style.top="410px";
+      sandalYer++;
+    }
+      var btnKuzu=document.getElementById("kuzu");
+      btnKuzu.onclick=function(){
+    if (sandalYer == 3 && kuzuYer == 1) {
+      kuzu.style.left="560px";
+      kuzu.style.top="380px";  
+      kuzuYer++; 
+      }
+      var btnSandal=document.getElementById("sandal");
+      btnSandal.onclick=function(){
+        if (kuzuYer == 2) {
+          sandal.style.left="750px";
+          sandal.style.top="410px";
+          sandalYer++;
+          kuzu.style.left="780px";
+          kuzu.style.top="380px";
+          kuzuYer++;
+        }
+      }
+      var btnKuzu=document.getElementById("kuzu");
+      btnKuzu.onclick=function(){
+        if (sandalYer == 4 && kuzuYer == 3) {
+          kuzu.style.left="970px";
+          kuzu.style.top="390px";
+          kuzuYer++;
+        }
+      } 
+      var btnSaman=document.getElementById("saman");
+      btnSaman.onclick=function(){
+      if (samanYer == 4 && sandalYer == 4) {
+        saman.style.left="795px";
+        saman.style.top="420px";
+        samanYer++;
+      }
+      var btnSandal=document.getElementById("sandal");
+      btnSandal.onclick=function(){
+        if (samanYer == 5) {
+          sandal.style.left="515px";
+          sandal.style.top="410px";
+          sandalYer++;
+          saman.style.left="560px";
+          saman.style.top="410px";  
+          samanYer++;
+        }
+      }
+      var btnSaman=document.getElementById("saman");
+      btnSaman.onclick=function(){
+      if (samanYer == 6 && sandalYer == 5) {
+        saman.style.left="460px";
+        saman.style.top="565px";
+        samanYer++;
+        }
+      }
+      var btnKurt=document.getElementById("kurt");
+      btnKurt.onclick=function(){
+      if (kurtYer == 1 && sandalYer == 5) {
+        kurt.style.left="570px";
+        kurt.style.top="400px";
+        kurtYer++;
+        }  
+        var btnSandal=document.getElementById("sandal");
+        btnSandal.onclick=function(){
+        if (kurtYer == 2) {
+          sandal.style.left="750px";
+          sandal.style.top="410px";
+          sandalYer++;
+          kurt.style.left="790px";
+          kurt.style.top="400px";
+          kurtYer++;
+          }       
+        }  
+        var btnKurt=document.getElementById("kurt");
+        btnKurt.onclick=function(){
+        if (kurtYer == 3 && sandalYer == 6) {
+          kurt.style.left="970px";
+          kurt.style.top="485px";
+          kurtYer++;
+          }
+          var btnSandal=document.getElementById("sandal");
+          btnSandal.onclick=function(){
+            sandal.style.left="515px";
+            sandal.style.top="410px";
+            sandalYer++;
+          }
+          var btnSaman=document.getElementById("saman");
+          btnSaman.onclick=function(){
+          if (samanYer == 7 && sandalYer == 7) {
+            saman.style.left="560px";
+            saman.style.top="410px";
+            samanYer++;
+            }
+          var btnSandal=document.getElementById("sandal");
+          btnSandal.onclick=function(){
+          if (samanYer == 8) {
+          saman.style.left="795px";
+          saman.style.top="420px";
+          samanYer++;
+          sandal.style.left="750px";
+          sandal.style.top="410px";
+          sandalYer++;
+          var btnSaman=document.getElementById("saman");
+          btnSaman.onclick=function(){
+            saman.style.left="960px";
+            saman.style.top="565px";
+            samanYer++;
+                }
+              }
+            }
+          }
+        } 
+      }
+    }
+  }
+      var btnKurt=document.getElementById("kurt");
+      btnKurt.onclick=function(){
+    if (kurtYer == 1 && sandalYer == 3) {
+      kurt.style.left="570px";
+      kurt.style.top="400px";
+      kurtYer++;
+      } 
+      var btnSandal=document.getElementById("sandal");
+      btnSandal.onclick=function(){
+        if (kurtYer == 2) {
+          sandal.style.left="750px";
+          sandal.style.top="410px";
+          sandalYer++;
+          kurt.style.left="790px";
+          kurt.style.top="400px";
+          kurtYer++;
+        }
+      } 
+      var btnKurt=document.getElementById("kurt");
+      btnKurt.onclick=function(){
+        if (sandalYer == 4 && kurtYer == 3) {
+          kurt.style.left="970px";
+          kurt.style.top="475px";
+          kurtYer++;
+        }   
+      }    
+      var btnSaman=document.getElementById("saman");
+      btnSaman.onclick=function(){
+      if (samanYer == 4 && sandalYer == 4) {
+        saman.style.left="795px";
+        saman.style.top="420px";
+        samanYer++;
+        }
+        var btnSandal=document.getElementById("sandal");
+        btnSandal.onclick=function(){
+          if (samanYer == 5) {
+            sandal.style.left="515px";
+            sandal.style.top="410px";
+            sandalYer++;
+            saman.style.left="560px";
+            saman.style.top="410px";  
+            samanYer++;
+          }
+        }
+        var btnSaman=document.getElementById("saman");
+        btnSaman.onclick=function(){
+        if (samanYer == 6 && sandalYer == 5) {
+          saman.style.left="460px";
+          saman.style.top="565px";
+          samanYer++;
+          }
+        }
+        var btnKuzu=document.getElementById("kuzu");
+        btnKuzu.onclick=function(){
+        if (kuzuYer == 1 && sandalYer == 5) {
+          kuzu.style.left="560px";
+          kuzu.style.top="380px";  
+          kuzuYer++; 
+          }
+          var btnSandal=document.getElementById("sandal");
+          btnSandal.onclick=function(){
+          if (kuzuYer == 2) {
+            sandal.style.left="750px";
+            sandal.style.top="410px";
+            sandalYer++;
+            kuzu.style.left="780px";
+            kuzu.style.top="380px";
+            kuzuYer++;
+            }       
+          } 
+          var btnKuzu=document.getElementById("kuzu");
+          btnKuzu.onclick=function(){
+          if (kuzuYer == 3 && sandalYer == 6) {
+            kuzu.style.left="970px";
+            kuzu.style.top="390px";
+            kuzuYer++;
+            }
+            var btnSandal=document.getElementById("sandal");
+            btnSandal.onclick=function(){
+              sandal.style.left="515px";
+              sandal.style.top="410px";
+              sandalYer++;
+            }
+            var btnSaman=document.getElementById("saman");
+            btnSaman.onclick=function(){
+            if (samanYer == 7 && sandalYer == 7) {
+              saman.style.left="560px";
+              saman.style.top="410px";
+              samanYer++;
+              }
+            var btnSandal=document.getElementById("sandal");
+            btnSandal.onclick=function(){
+            if (samanYer == 8) {
+            saman.style.left="795px";
+            saman.style.top="420px";
+            samanYer++;
+            sandal.style.left="750px";
+            sandal.style.top="410px";
+            sandalYer++;
+            var btnSaman=document.getElementById("saman");
+            btnSaman.onclick=function(){
+              saman.style.left="960px";
+              saman.style.top="565px";
+              samanYer++;
+                  
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

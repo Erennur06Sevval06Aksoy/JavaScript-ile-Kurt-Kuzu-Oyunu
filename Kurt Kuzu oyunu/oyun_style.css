@@ -1,0 +1,33 @@
+
+.arkaplan{
+	width: 1535px; 
+	height: 755px; 
+	position: fixed;
+      top: 1px;
+      right: 1px;
+ 	background-image: url(arkaplan.png);
+}
+
+#kuzu{width: 70px; 
+	height: 92px;
+	position: absolute;
+      left: 430px;
+      top: 390px;}
+
+#kurt{width: 100px; 
+	height: 84px;
+	position: absolute;
+      left: 430px;
+      top: 485px;}
+
+#sandal{width: 200px; 
+	height: 147px;
+	position: absolute;
+      left: 515px;
+      top: 410px;}
+
+#saman{width: 80px; 
+	height: 80px;
+	position: absolute;
+      left: 460px;
+      top: 565px;}
